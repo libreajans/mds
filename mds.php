@@ -3,23 +3,16 @@
 function mds($key,$level = 0)
 {
   /******************************************************************
-  *
-  * Tayland, Songkhala'da 2013 yılında yazılmıştır.
-  * 
-  * http://randomkeygen.com sitesi ile random key oluşturuyorum :)
-  *
   * @Level değeri
   * md5 yapılmış şifreleri
-  * mds şekline dönüştürmek için kullanılır
-  *
-  * Tek farkı, ilk aşamadaki key değerini md5 yapmak yerine, 
-  * yapılmış haliyle kullanmasıdır
-  *
-  * 
-  * 
-  * en son aşamada md5 kullanılmasının amacı çıktıyı normal bir
+  * mds şekline dönüştürmek için kullanılır.
+  * İlk aşamadaki key değerini md5 yapmak yerine, 
+  * yapılmış haliyle kullanır.
+  * En son aşamada md5 kullanılmasının amacı çıktıyı normal bir
   * md5 çıktısıymış gibi göstermektir
   *
+  * http://randomkeygen.com sitesi ile random key oluşturuyorum :)
+  * Tayland, Songkhala'da 2013 yılında yazılmıştır.
   *******************************************************************/
 
   $salt0 	= 'XvX0kGeG:4{05g9%ijnX4Z7kT^Ia3Hc'; //hash 1
